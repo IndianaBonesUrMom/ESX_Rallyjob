@@ -22,6 +22,6 @@ NOTE: The sql table stores the track number! Some of you guys probably want to c
 How to install:
 
 If you don't know how to install this you probably shouldn't be hosting a server anyways. 
-The Server list is already full of pasta servers. And the funny thing is, people actually do prefer pasta servers.
-More pasta = more streamers = more sheep players.
+The server list is already full of pasta servers. And the funny thing is, people actually do prefer pasta servers.
+More pasta = more streamers = more sheeps.
 
