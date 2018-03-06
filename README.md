@@ -2,7 +2,7 @@
 #Rallydriver job FiveM ESX
 
 Features:  
-1. Paychecks according to lap-time. Paycheck tiers: Gold (lap record), Silver, Bronze and failure.
+1. Paychecks according to lap-time. Paycheck tiers: Gold (track record), Silver, Bronze and failure.
 2. Laptimes are auto-maintained and always dictated by the current lap record.  Getting good paychecks gets harder and harder when time goes by.
 
 How to install:
