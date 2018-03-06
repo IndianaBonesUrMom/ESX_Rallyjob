@@ -2,6 +2,7 @@
 -- github.com/IndianaBonesUrMom/
 -- Simple Fivem Stopwatch with ms precision
 -- I personally use this for multiple esx scripts, such as esx_rallyjob, esx_runner, esx_bicycle and esx_sickness
+-- Maybe that's why my scripts suck whale's fat cock
 --
 
 FiveWatch = {}
