@@ -1,10 +1,25 @@
 ESX = nil				
-local playerData = {}	
+playerData = {}	
+
 Citizen.CreateThread(function()
     while ESX == nil do													
         TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
         Citizen.Wait(0)
     end
+end)
+
+RegisterNetEvent('esx:playerLoaded')
+AddEventHandler('esx:playerLoaded', function(xPlayer)		
+    playerData = xPlayer								
+    refreshBlips()										
+end)
+
+RegisterNetEvent('esx:setJob')
+AddEventHandler('esx:setJob', function(job)	
+  playerData.job = job						
+  onDuty = false							
+  deleteBlips()								
+  refreshBlips()							
 end)
 
 math.randomseed(GetGameTimer())
@@ -73,20 +88,6 @@ function msToClock(seconds) --https://gist.github.com/jesseadams/791673
     return mins..":"..secs..":"..mils
   end
 end
-
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(xPlayer)		
-    playerData = xPlayer								
-    refreshBlips()										
-end)
-
-RegisterNetEvent('esx:setJob')
-AddEventHandler('esx:setJob', function(job)	
-  playerData.job = job						
-  onDuty = false							
-  deleteBlips()								
-  refreshBlips()							
-end)
 
 AddEventHandler('esx_rallyjob:celebrate', function()
 	Citizen.CreateThread(function()
