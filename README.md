@@ -12,5 +12,6 @@ Features:
 How to install:
 
 If you don't know how to install this you probably shouldn't be hosting a server anyways. 
-The Server list is already full of pasta servers anyways. And the funny thing is, people actually do prefer pasta servers.
+The Server list is already full of pasta servers. And the funny thing is, people actually do prefer pasta servers.
 More pasta = more players.
+
