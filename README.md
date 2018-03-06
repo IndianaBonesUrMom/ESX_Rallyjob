@@ -7,7 +7,7 @@ It's been on my server for a day now and nobody has complained about bugs so far
 
 Features:  
 1. Paychecks according to lap-time. Paycheck tiers: Gold (track record), Silver, Bronze and failure.
-2. Laptimes are auto-maintained and always dictated by the current lap record.  Getting good paychecks gets harder and harder when time goes by. Name of the track record holder is displayed when player enters new race.
+2. Laptimes are auto-maintained and always dictated by the current lap record.  Getting good paychecks gets harder and harder when time goes by. Name of the track record holder is displayed when player enters new race. With 30 seconds of intense thinking and 65 IQ I couldn't find a way to get RP name without SQL. Due to this fact Steam name is displayed.  If you are willing to fuck your server in the ass, you are welcome to add that extra SQL lookup.
 
 How to install:
 
