@@ -15,12 +15,8 @@ AddEventHandler('onMySQLReady', function()
 end)
 
 
-ESX.RegisterServerCallback('esx_rallyjob:getTimes', function(source, cb, gang) --use cb(RallyTimes) instead? lol
-	local times = {}
-	for i = 1, #RallyTimes, 1 do
-		table.insert(times, RallyTimes[i])
-	end
-	cb(times)
+ESX.RegisterServerCallback('esx_rallyjob:getTimes', function(source, cb)
+	cb(RallyTimes)
 end)
 
 RegisterServerEvent('esx_rallyjob:onRecord')
