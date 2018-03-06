@@ -41,7 +41,7 @@ function sizeOfTable (tab)
   return count
 end
 
-function elementAt(tab, indx)
+function elementAt(tab, indx) --I had a different table structure in the beginning. Will remove this useless piece of shit later
  
   local count = 0
   local ret = nil
