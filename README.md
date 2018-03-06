@@ -1,8 +1,8 @@
 # ESX_Rallyjob
-#Rallydriver job and dynamic payment system for FiveM ESX
+#Rallydriver job FiveM ESX
 
 Features:  
-1. Paychecks according to lap-time.
+1. Paychecks according to lap-time. Paycheck tiers: Gold (lap record), Silver, Bronze and failure.
 2. Laptimes are auto-maintained and always dictated by the current lap record.  Getting good paychecks gets harder and harder when time goes by.
 
 How to install:
@@ -12,4 +12,4 @@ People like you ruin the communite. Pasta servers after pasta server without con
 
 And the funny thing here is people actually prefer pasta servers. XD
 
-"HEY LOOK BRO THIS SERVER HAS ZERO ORIGINAL CONTENT LETS PLAY HERE! ALL THE STREAMERS ARE HERE TOO WOW"
+"HEY LOOK BRO THIS SERVER HAS ZERO ORIGINAL CONTENT LETS PLAY HERE! ALL THE STREAMERS ARE HERE TOO WOW THIS IS AMAZING"
