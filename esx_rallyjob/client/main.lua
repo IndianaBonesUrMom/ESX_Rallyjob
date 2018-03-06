@@ -80,7 +80,7 @@ function msToClock(seconds) --https://gist.github.com/jesseadams/791673
 
   if seconds <= 0 then
     return "00:00:00";
-  else															--78945, 
+  else								--78945, 
 	hours = string.format("%02.f", math.floor(seconds/3600000)); --0
    	mins = string.format("%02.f", math.floor(seconds/60000 - (hours*60000))); --1,31
     	secs = string.format("%02.f", math.floor((seconds - hours*3600000 - mins *60000) / 1000)); --18,945
@@ -344,8 +344,6 @@ function updateCurrentIndex()
 	currentIndex = currentIndex + 1
 end
 
---========================================--
---==========SET GPS TO NEXT===============--
 function setGps(coords)
 	if rallyBlips['rally'] ~= nil then 	
 		RemoveBlip(rallyBlips['rally'])	
@@ -361,7 +359,7 @@ function isInside(playerCoords, coords, distance)
 	return GetDistanceBetweenCoords(playerCoords, coords.x, coords.y, coords.z, true) < distance			
 end
 
-function taskTrigger(zone)					--WHY THE FUCK LUA DOESN'T HAVE SWITCH ??? @ WUT
+function taskTrigger(zone)					--NICE SWITCH LUA TY
 	if zone == 'locker' then				
 		openMenu()
 	elseif zone == 'start' then				
@@ -377,7 +375,7 @@ function getTrackinfo(lastRoute)
 			return {bronze = math.floor(RallyTimes[i].laptime * Config.bronze), silver = math.floor(RallyTimes[i].laptime * Config.silver), gold = RallyTimes[i].laptime, driver = RallyTimes[i].driver}
 		end
 	end
-	return {bronze = 993700, silver = 990800, gold = 810099, driver = "Hemuli Harjula"} --default time should be quite high
+	return {bronze = 993700, silver = 990800, gold = 810099, driver = "Hemuli Harjula"} --default time should be quite high for auto-mode
 end
 
 Citizen.CreateThread(function()
