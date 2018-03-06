@@ -3,7 +3,7 @@ Rallydriver job for FiveM ESX
 ![alt text](https://i.imgur.com/lwX5iOw.jpg)
 
 Couldn't find any Rally driver jobs on the internet so I made this last night. 
-It's been on my server for a day now and nobody has complained about bugs so far.
+Please report any bugs so I can fix them asap.  Discord: Discord.me/Napapiiri
 
 Features:  
 1. Paychecks according to lap-time. Paycheck tiers: Gold (track record), Silver, Bronze and failure.
