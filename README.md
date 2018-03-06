@@ -10,6 +10,6 @@ How to install:
 If you don't know how to install this you probably should be hosting a server either.
 People like you ruin the scene. Pasta servers after pasta server without contributing yourself at all.
 
-And the funny thing here is people actually prefer pasta servers. XD
+And the funny thing here is people actually do prefer pasta servers. XD
 
 "HEY LOOK BRO THIS SERVER HAS ZERO ORIGINAL CONTENT LETS PLAY HERE! ALL THE STREAMERS ARE HERE TOO WOW THIS IS AMAZING"
