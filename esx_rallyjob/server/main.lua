@@ -22,7 +22,7 @@ end)
 RegisterServerEvent('esx_rallyjob:onRecord')
 AddEventHandler('esx_rallyjob:onRecord', function(track, laptime)						
 	
-	local _track = track
+	local _track = track --Such use, much efficient.
 	local _laptime = laptime
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
