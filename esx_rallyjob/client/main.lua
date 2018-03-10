@@ -82,7 +82,7 @@ function msToClock(seconds) --https://gist.github.com/jesseadams/791673
     return "00:00:00";
   else								--78945, 
 	hours = string.format("%02.f", math.floor(seconds/3600000)); --0
-   	mins = string.format("%02.f", math.floor(seconds/60000 - (hours * 3600000))); --1,31
+   	mins = string.format("%02.f", math.floor(seconds/60000 - (hours * 60))); --1,31
     	secs = string.format("%02.f", math.floor((seconds - hours*3600000 - mins *60000) / 1000)); --18,945
 	mils = string.format("%01.f", math.floor(seconds - hours*3600000 - mins *60000 - secs * 1000)); --945
     return mins..":"..secs..":"..mils
